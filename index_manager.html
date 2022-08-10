@@ -1,0 +1,545 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>HTML Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+	<style>
+     
+		body {
+			width: 100% !important;
+			-webkit-text-size-adjust: 100%;
+			-ms-text-size-adjust: 100%;
+			margin: 0;
+			padding: 0;
+			line-height: 100%;
+		}
+
+		img {
+			outline: none;
+			text-decoration: none;
+			border:none;
+			-ms-interpolation-mode: bicubic;
+			max-width: 100%!important;
+			margin: 0;
+			padding: 0;
+		}
+        a {
+            color: #000000;
+            text-decoration: none;
+        }
+    
+		table td {
+			border-collapse: collapse;
+		}
+    
+		table {
+			border-collapse: collapse;
+			mso-table-lspace: 0pt;
+			mso-table-rspace: 0pt;
+		}
+        
+     
+   @media (max-width:375px) {
+    .table-600 {
+        max-width: 355px!important;
+    }
+    .table-600.navigation-table {
+        border-bottom: none!important;
+    }
+    .space-header-top {
+        height: 16px!important;
+    }
+    .space-under-logo {
+        height: 31.7px!important;
+    }
+    .space-items {
+        height: 8px!important;
+    }
+    .greetings-wrapper {
+        padding-left: 17px!important;
+        padding-right: 17px!important;
+    }
+    .space-under-greeting{
+        height: 24px!important;
+    }
+    .header{
+        padding-top: 4px!important;
+        padding-bottom: 1px!important;
+    }
+    .img-header {
+        display: none!important;
+    }
+    .img-mobile-header {
+        display: inline-block!important;
+    }
+    .img-mobile {
+        padding-left: 28px!important;
+        padding-right: 24px!important;
+    }
+    .header-title-wrapper {
+        padding-left: 44.5px!important;
+        padding-top: 9px!important;
+    }
+    .header-title {
+        font-size: 1.2556rem!important;
+    }
+    .border-header {
+        height: 40.74px!important;
+    }
+    .padding-under-order {
+        padding-bottom: 8px!important;
+    }
+    .order-title {
+        font-size: 1rem!important;
+    }
+    .space-under-order-title {
+        height: 16px!important;
+    }
+    .order-data-title {
+        font-size: 0.875rem!important;
+        font-weight: 400!important;
+    }
+    .space-under-order-data-title {
+        height: 32px!important;
+    }
+    .greetings-title {
+        font-size: 0.875rem!important;
+        width: 321px!important ;
+    }
+    .space-items-last-child {
+        height: 12px!important;
+    }
+    .img-item {
+        padding-right: 14px!important;
+        padding-bottom: 22px!important;
+    }
+    .item-name {
+        width: 229px!important;
+        font-size: 0.875rem!important;
+    }
+    .item-model {
+        font-size: 0.75rem!important;
+        padding-top: 8px!important;
+    }
+    .item-price {
+        font-size: 0.75rem!important;
+        padding-top: 8px!important;
+    }
+    .item-code {
+        font-size: 0.75rem!important;
+        padding-top: 8px!important;
+    }
+    .wrapper-order-section {
+        padding-bottom: 4px!important;
+    }
+    .item-amount {
+        font-size: 0.75rem!important;
+        padding-top: 8px!important;
+    }
+    .item-full-price {
+        display: block!important;
+        font-size: 0.75rem!important;
+        padding-top: 4px!important;
+    }
+    
+    .footer-title {
+        font-size: 1rem!important;
+    }
+    .footer-info {
+        font-size: 0.875rem!important;
+        padding-right: 0px!important;
+    }
+    .footer-info.name-section {
+        width: 130px!important;
+        padding-right: 4px!important;
+    }
+    .footer-info.recipient {
+        width: 187px!important;
+    }
+    .footer-info.payment {
+        width: 187px!important;
+    }
+    .footer-info.comments {
+        width: 195px!important;
+    }
+    .footer-info.info {
+      width: 150px!important;
+      padding-right: 0!important;
+    }
+    .footer-info.private-info {
+        display: inline-table!important;
+        padding-right: 0!important;
+    }
+    .footer-title-wrapper {
+        padding-left: 16px!important;
+        padding-top: 8px!important;
+        padding-bottom: 8px!important;
+    }
+    .footer-info-wrapper.top {
+        padding-top: 8px!important;
+     }
+    .footer-info-wrapper {
+        padding-left: 12px!important;
+        padding-top: 0px!important;
+        padding-bottom: 24px!important;
+        border-bottom: none!important;
+    }
+    .footer-info-wrapper.bottom {
+        padding-bottom: 13px!important;
+     }
+     .space-under-footer-info {
+        height: 12px!important;
+     }
+     .total-title {
+        font-size: 0.875rem!important;
+     }
+     .total-title.text {
+        width: 204px!important;
+        padding-right: 73px!important;
+     }
+     .total-title-wrapper {
+        padding-left: 4px!important;
+        padding-top: 8px!important;
+        padding-right: 4px!important;
+        padding-bottom: 8px!important;
+     }
+     .space-under-footer-text {
+        height: 64px!important;
+     }
+     .farewell-title {
+        font-size: 1rem!important;
+     }
+     .space-footer {
+        height: 35px!important;
+     }
+     .max-672, .max-600, .width-672, .width-600 {
+        width: 375px!important;
+     }
+     .footer-call-title {
+        font-size: 0.875rem!important;
+     }
+     .link-tel {
+        font-size: 0.875rem!important;
+     }
+     .padding-footer {
+        padding-top: 16px!important;
+     }
+     .footer-padding {
+        padding-bottom: 16px!important;
+     }
+   }
+	</style>
+</head>
+
+<body style="margin: 0; padding: 0;">
+
+	<div style="font-size:0px;font-color:#ffffff;opacity:0;visibility:hidden;width:0;height:0;display:none;">Тестовое письмо</div>
+	<table cellpadding="0" cellspacing="0" style="width:100%;  background: white" >
+        <tr>
+            <td>
+                <table class="table-672 max-672" cellpadding="0" cellspacing="0"style="max-width:672px;" align="center" border="0">
+                    <tr>
+                        <td class="space-header-top table-672 max-672" style="width:100%; max-width:672px; height: 16px;"></td>
+                    </tr>
+                    <tr>
+                        <td class="header-td table-672" style="width:100%; max-width:672px; background-color: #292C2E">
+                            <table class="table-600 max-600" cellpadding="0" cellspacing="0" style="width:100%; max-width:672px; margin: 0;" align="center" border="0">
+                                <tr>
+                                    <td class="logo" align="left">
+                                        <span class="header" style="display: block;  padding-top: 7px; padding-bottom: 4px;">
+                                            <a class="img-header" target="_blank" href="https://logicpower.ua/" style="display: inline-block; vertical-align: top; padding-top: 5px;">
+                                                <img src="img/logo.png" alt="logo" width="325" height="63" style="padding-left:50px; padding-right:46px;">
+                                            </a>
+                                            <a class="img-mobile-header" target="_blank" href="https://logicpower.ua/" style="display: none; vertical-align: top; padding-top: 5px;">
+                                                <img class="img-mobile" src="img/logo_mobile.png" alt="logo" width="181.36" height="35.16" style="padding-left:40px; padding-right:46px;">
+                                            </a>
+                                            <span class="border-header" style="display: inline-block; height: 73px; width: 1px; background-color: #FFFFFF"></span>
+                                            <span class="header-title-wrapper" style="display: inline-block; vertical-align: top; padding-top: 13px; padding-left: 87px">
+                                                <span class="header-title" style="font-family: 'Manrope', sans-serif; text-transform: uppercase; letter-spacing: 0.075em; text-transform: uppercase; color: #FFFFFF; font-weight: 700; line-height: 130%; font-size: 2.25rem;">B2B</span>
+                                            </span>
+                                        </span>  
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="space-under-logo table-672 max-672" style="width:100%; max-width:672px; height:66px"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table class="table-672 max-672" cellpadding="0" cellspacing="0" style="max-width:672px" align="center" border="0">
+                                <tr>
+                                    <td align="center">
+                                        <span class="order-title" style="font-family: 'Inter', sans-serif; font-weight: 700; color: #F36C21; line-height: 130%; font-size: 2.25rem; margin-top: 0; margin-bottom: 0; display: block;text-transform: uppercase">Ваше замовлення №19435 успішно сформоване!</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="space-under-order-title table-672 max-672" style="max-width:672px;height:24px;"></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table class="table-672 max-672" cellpadding="0" cellspacing="0" style="max-width:672px" align="center" border="0">
+                                <tr>
+                                    <td align="center">
+                                        <span class="order-data-title" style="font-family: 'Inter', sans-serif; font-weight: 700; line-height: 140%; letter-spacing: 0.02em; color: #2B2B2B; font-size: 1.125rem; margin-bottom: 0; margin-top: 0;">Дата оформлення: 12.12.24</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="space-under-order-data-title table-672 max-672" style="max-width:672px;height:16px;"></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table class="table-600 width-600"  cellpadding="0" cellspacing="0" style="width:600px" align="center"  border="0">
+                                <tr>                          
+                                    <td align="left" >
+                                        <span class="greetings-wrapper" style="display: block; padding-left: 8px; padding-top: 10px; padding-right: 0; padding-bottom: 11px; border: 1px solid #B4B4B4; border-radius: 4px;">
+                                            <span class="greetings-title" style="font-family: 'Inter', sans-serif;color: #2B2B2B;margin-top: 0; margin-bottom: 0; letter-spacing: 0.02em; line-height: 150%; font-size: 1.125rem; font-weight: 400; display: block;">Шановний користувач!</span>
+                                            <span class="greetings-title" style="font-family: 'Inter', sans-serif;color: #2B2B2B;margin-top: 0; margin-bottom: 0; letter-spacing: 0.02em; line-height: 150%; font-size: 1.125rem; font-weight: 400; display: block;">Дякуємо Вам за замовлення та вибір продуктів LogicPower.</span>
+                                            <span class="greetings-title" style="width: 550px; font-family: 'Inter', sans-serif;color: #2B2B2B;margin-top: 0; margin-bottom: 0; letter-spacing: 0.02em; line-height: 150%; font-size: 1.125rem; font-weight: 400; display: block;">Ми щиро сподіваємось, що використання нашого обладнання принесе Вам комфорт та затишок. Будемо раді бачити Вас знову! Команда LogicPower.</span>
+                                        </span>
+                                    </td>
+                                </tr>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-672 max-672 space-under-greeting" style="max-width:672px;height:48px;"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table class="table-600 width-600" cellpadding="0" cellspacing="0" style="width:600px" align="center"  border="0">
+                                <tr>
+                                    <td align="center" style="padding-bottom: 16px;">
+                                        <span class="item-name" style="width: 445px; font-family: 'Inter', sans-serif; font-weight: 700; color: #2B2B2B; letter-spacing: 0.02em; line-height: 130%;;margin-bottom: 0; margin-top: 0; font-size: 1.5rem; display: block">Замовлення</span>
+                                    </td>
+                                </tr>
+                                
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table class="table-600 width-600" cellpadding="0" cellspacing="0" style="width:600px" align="center"  border="0">
+                                <tr>
+                                    <td class="padding-under-order" align="left" style="padding-bottom: 16px;">
+                                        <span class="item-name" style="width: 445px; font-family: 'Inter', sans-serif; font-weight: 700; color: #2B2B2B; letter-spacing: 0.02em; line-height: 130%;;margin-bottom: 0; margin-top: 0; font-size: 1rem; display: block">Товари в долларах</span>
+                                    </td>
+                                </tr>
+                                
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table class="table-600 width-600" cellpadding="0" cellspacing="0" style="width:600px" align="center" border="0">
+                                <tr>
+                                    <td align="left">
+                                        <span class="wrapper-order-section" style="display: block; padding-left: 0; padding-top: 4px; padding-right: 0; padding-bottom: 8px; border: 1px solid #B4B4B4; border-radius: 4px;">
+                                            <img class="img-item" src="img/item.png" alt="item" width="104" height="104" style="padding-bottom: 15px; padding-right: 16px;">
+                                            <span style="display: inline-block;">
+                                                <span class="item-name" style="width: 445px; font-family: 'Inter', sans-serif; font-weight: 700; color: #2B2B2B; letter-spacing: 0.02em; line-height: 130%;;margin-bottom: 0; margin-top: 0; font-size: 1.5rem; display: block">Источник бесперебойного питания (ИБП) LP-U600VA-3PS (360Вт)</span>
+                                                <span class="item-code" style="padding-top: 8px; font-family: 'Inter', sans-serif; font-size: 1rem; line-height: 140%;letter-spacing: 0.02em;color: #2B2B2B; display: block;">Код: 1324</span>
+                                                <span class="item-price" style="padding-top: 8px; font-family: 'Inter', sans-serif; font-size: 1rem; line-height: 140%;letter-spacing: 0.02em;color: #F36C21; display: block;">Цiна: 20 954 ₴</span>
+                                                <span class="item-amount" style="padding-top: 8px; font-family: 'Inter', sans-serif; font-size: 1rem; line-height: 140%;letter-spacing: 0.02em;color: #2B2B2B; font-weight: 700; display: inline-block; padding-right: 24px;">Кiлькiсть: 32 шт</span>
+                                                <span class="item-full-price" style=" font-family: 'Inter', sans-serif; font-size: 1rem; line-height: 140%;letter-spacing: 0.02em; font-weight: 700; color: #F36C21; display: inline-block;">Загальна вартість: 20 954 ₴</span>
+                                            </span>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-672 width-672 space-items" height="16" width="672"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table class="table-600 width-600" cellpadding="0" cellspacing="0" style="width:600px" align="center" border="0">
+                                <tr>
+                                    <td align="left">
+                                        <span class="wrapper-order-section" style="display: block; padding-left: 0; padding-top: 4px; padding-right: 0; padding-bottom: 8px; border: 1px solid #B4B4B4; border-radius: 4px;">
+                                            <img class="img-item" src="img/item.png" alt="item" width="104" height="104" style="padding-bottom: 15px; padding-right: 16px;">
+                                            <span style="display: inline-block;">
+                                                <span class="item-name" style="width: 445px; font-family: 'Inter', sans-serif; font-weight: 700; color: #2B2B2B; letter-spacing: 0.02em; line-height: 130%;;margin-bottom: 0; margin-top: 0; font-size: 1.5rem; display: block">Источник бесперебойного питания (ИБП) LP-U600VA-3PS (360Вт)</span>
+                                                <span class="item-code" style="padding-top: 8px; font-family: 'Inter', sans-serif; font-size: 1rem; line-height: 140%;letter-spacing: 0.02em;color: #2B2B2B; display: block;">Код: 1324</span>
+                                                <span class="item-price" style="padding-top: 8px; font-family: 'Inter', sans-serif; font-size: 1rem; line-height: 140%;letter-spacing: 0.02em;color: #F36C21; display: block;">Цiна: 20 954 ₴</span>
+                                                <span class="item-amount" style="padding-top: 8px; font-family: 'Inter', sans-serif; font-size: 1rem; line-height: 140%;letter-spacing: 0.02em;color: #2B2B2B; font-weight: 700; display: inline-block; padding-right: 24px;">Кiлькiсть: 32 шт</span>
+                                                <span class="item-full-price" style=" font-family: 'Inter', sans-serif; font-size: 1rem; line-height: 140%;letter-spacing: 0.02em; font-weight: 700; color: #F36C21; display: inline-block;">Загальна вартість: 20 954 ₴</span>
+                                            </span>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-672 width-672 space-items" height="16" width="672"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table class="table-600 width-600" cellpadding="0" cellspacing="0" style="width:600px" align="center" border="0">
+                                <tr>
+                                    <td align="left">
+                                        <span class="wrapper-order-section" style="display: block; padding-left: 0; padding-top: 4px; padding-right: 0; padding-bottom: 8px; border: 1px solid #B4B4B4; border-radius: 4px;">
+                                            <img class="img-item" src="img/item.png" alt="item" width="104" height="104" style="padding-bottom: 15px; padding-right: 16px;">
+                                            <span style="display: inline-block;">
+                                                <span class="item-name" style="width: 445px; font-family: 'Inter', sans-serif; font-weight: 700; color: #2B2B2B; letter-spacing: 0.02em; line-height: 130%;;margin-bottom: 0; margin-top: 0; font-size: 1.5rem; display: block">Источник бесперебойного питания (ИБП) LP-U600VA-3PS (360Вт)</span>
+                                                <span class="item-code" style="padding-top: 8px; font-family: 'Inter', sans-serif; font-size: 1rem; line-height: 140%;letter-spacing: 0.02em;color: #2B2B2B; display: block;">Код: 1324</span>
+                                                <span class="item-price" style="padding-top: 8px; font-family: 'Inter', sans-serif; font-size: 1rem; line-height: 140%;letter-spacing: 0.02em;color: #F36C21; display: block;">Цiна: 20 954 ₴</span>
+                                                <span class="item-amount" style="padding-top: 8px; font-family: 'Inter', sans-serif; font-size: 1rem; line-height: 140%;letter-spacing: 0.02em;color: #2B2B2B; font-weight: 700; display: inline-block; padding-right: 24px;">Кiлькiсть: 32 шт</span>
+                                                <span class="item-full-price" style=" font-family: 'Inter', sans-serif; font-size: 1rem; line-height: 140%;letter-spacing: 0.02em; font-weight: 700; color: #F36C21; display: inline-block;">Загальна вартість: 20 954 ₴</span>
+                                            </span>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-672 width-672 space-items space-items-last-child" height="16" width="672"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table class="table-600 width-600" cellpadding="0" cellspacing="0" style="width:600px" align="center" border="0">
+                                <tr>
+                                    <td>
+                                        <span style="display: block; border: 1px solid #B4B4B4; border-radius: 4px;">
+                                            <span class="footer-title-wrapper" style="display: block; border-bottom: 1px solid #B4B4B4;padding-top: 16px; padding-bottom: 16px; padding-left: 32px;">
+                                                <span class="footer-title" style=" font-family: 'Inter', sans-serif; font-size: 1.125rem; line-height: 140%;letter-spacing: 0.02em;color: #000000; font-weight: 700; display: inline-block;">Про замовлення</span>
+                                            </span>
+
+                                            <span class="footer-info-wrapper top" style="display: block; border-bottom: 1px solid #B4B4B4;padding-top: 49px; padding-bottom: 20px; padding-left: 32px;">
+                                                <span class="footer-info name-section info" style="width: 195px; font-family: 'Inter', sans-serif; font-size: 1.125rem; line-height: 140%;letter-spacing: 0.02em;color: #8A8A8A; font-weight: 700; display: inline-block; padding-right: 48px;">Отримувач</span>
+                                                <span class="footer-info private-info recipient" style="font-family: 'Inter', sans-serif; font-size: 1.125rem; line-height: 140%;letter-spacing: 0.02em;color: #2B2B2B; font-weight: 500; display: inline-block; padding-right: 24px;">Фёдоров Мирон Сергеевич</span>
+                                            </span>
+
+                                            <span class="footer-info-wrapper" style="display: block; border-bottom: 1px solid #B4B4B4;padding-top: 20px; padding-bottom: 20px; padding-left: 32px;">
+                                                <span class="footer-info name-section info" style="width: 195px; font-family: 'Inter', sans-serif; font-size: 1.125rem; line-height: 140%;letter-spacing: 0.02em;color: #8A8A8A; font-weight: 700; display: inline-block; padding-right: 48px;">Телефон</span>
+                                                <span class="footer-info private-info" style="font-family: 'Inter', sans-serif; font-size: 1.125rem; line-height: 140%;letter-spacing: 0.02em;color: #2B2B2B; font-weight: 500; display: inline-block; padding-right: 24px;">+38(099)3423454</span>
+                                            </span>
+
+                                            <span class="footer-info-wrapper" style="display: block; border-bottom: 1px solid #B4B4B4;padding-top: 20px; padding-bottom: 20px; padding-left: 32px;">
+                                                <span class="footer-info name-section info" style="width: 195px; font-family: 'Inter', sans-serif; font-size: 1.125rem; line-height: 140%;letter-spacing: 0.02em;color: #8A8A8A; font-weight: 700; display: inline-block; padding-right: 48px;">E-mail</span>
+                                                <span class="footer-info private-info" style="font-family: 'Inter', sans-serif; font-size: 1.125rem; line-height: 140%;letter-spacing: 0.02em;color: #2B2B2B; font-weight: 500; display: inline-block; padding-right: 24px;">persona@mail.com</span>
+                                            </span>
+
+                                            <span class="footer-info-wrapper" style="display: block; border-bottom: 1px solid #B4B4B4;padding-top: 20px; padding-bottom: 20px; padding-left: 32px;">
+                                                <span class="footer-info name-section info" style="width: 195px; font-family: 'Inter', sans-serif; font-size: 1.125rem; line-height: 140%;letter-spacing: 0.02em;color: #8A8A8A; font-weight: 700; display: inline-block; padding-right: 48px;">Доставка</span>
+                                                <span class="footer-info private-info" style="font-family: 'Inter', sans-serif; font-size: 1.125rem; line-height: 140%;letter-spacing: 0.02em;color: #2B2B2B; font-weight: 500; display: inline-block; padding-right: 24px;">Оплачивает получатель</span>
+                                            </span>
+
+                                            <span class="footer-info-wrapper" style="display: block; border-bottom: 1px solid #B4B4B4;padding-top: 20px; padding-bottom: 20px; padding-left: 32px;">
+                                                <span class="footer-info name-section info" style="width: 195px; font-family: 'Inter', sans-serif; font-size: 1.125rem; line-height: 140%;letter-spacing: 0.02em;color: #8A8A8A; font-weight: 700; display: inline-block; padding-right: 48px;">Спосіб доставки</span>
+                                                <span class="footer-info private-info" style="font-family: 'Inter', sans-serif; font-size: 1.125rem; line-height: 140%;letter-spacing: 0.02em;color: #2B2B2B; font-weight: 500; display: inline-block; padding-right: 24px;">Новая почта</span>
+                                            </span>
+
+                                            <span class="footer-info-wrapper" style="display: block; border-bottom: 1px solid #B4B4B4;padding-top: 20px; padding-bottom: 20px; padding-left: 32px;">
+                                                <span class="footer-info name-section info" style="width: 195px; font-family: 'Inter', sans-serif; font-size: 1.125rem; line-height: 140%;letter-spacing: 0.02em;color: #8A8A8A; font-weight: 700; display: inline-block; padding-right: 48px;">Адреса доставки</span>
+                                                <span class="footer-info private-info" style="font-family: 'Inter', sans-serif; font-size: 1.125rem; line-height: 140%;letter-spacing: 0.02em;color: #2B2B2B; font-weight: 500; display: inline-block; padding-right: 24px;">Канатная, 112</span>
+                                            </span>
+
+                                            <span class="footer-info-wrapper bottom" style="display: block;padding-top: 20px; padding-bottom: 11px; padding-left: 32px;">
+                                                <span class="footer-info name-section info" style="width: 195px; font-family: 'Inter', sans-serif; font-size: 1.125rem; line-height: 140%;letter-spacing: 0.02em;color: #8A8A8A; font-weight: 700; display: inline-block; padding-right: 48px;">Накладений платіж</span>
+                                                <span class="footer-info private-info payment" style="font-family: 'Inter', sans-serif; font-size: 1.125rem; line-height: 140%;letter-spacing: 0.02em;color: #2B2B2B; font-weight: 500; display: inline-block; padding-right: 24px; vertical-align: top;">2000 $</span>
+                                            </span>
+
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-672 max-672 space-under-footer-info" style="max-width:672px;height: 32px;"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table class="table-600 width-600" cellpadding="0" cellspacing="0" style="width:600px" align="center" border="0">
+                                <tr>
+                                    <td>
+                                        <span class="total-title-wrapper" style="display: block; border: 1px solid #B4B4B4; border-radius: 4px;  padding-top: 8px; padding-bottom: 8px; padding-left: 32px;">
+                                            <span class="total-title text" style="width: 419px; font-family: 'Inter', sans-serif; font-size: 1.125rem; line-height: 140%;letter-spacing: 0.02em;color: #F36C21; font-weight: 700; display: inline-block; padding-right: 48px;">Загальна сума замовлення</span>
+                                            <span class="total-title price" style="font-family: 'Inter', sans-serif; font-size: 1.125rem; line-height: 140%;letter-spacing: 0.02em;color: #F36C21; font-weight: 700; display: inline-block;">1 456 ₴</span>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="space-under-footer-text max-672" style="max-width:672px; height: 136px;"></td>
+                    </tr>
+                    <tr style=" background-color: #F2F4F5;">
+                        <td>
+                            <table class="table-600 width-600" cellpadding="0" cellspacing="0" style="width:600px;" align="center" border="0">
+                                <tr>
+                                    <td class="padding-footer" style="border-bottom: 1px solid #F36C21; padding-top: 32px;">
+                                        <span class="footer-call-title" style="font-family: 'Inter', sans-serif; display: block; font-weight: 700; font-size: 1.125rem; text-align: center; line-height: 140%;"><a href="mailto:company@mail.com">company@mail.com</a></span>
+                                        <span class="footer-call-title" style="font-family: 'Inter', sans-serif; display: block; font-weight: 700; font-size: 1.125rem; text-align: center; line-height: 140%; padding-top: 8px;">Ваш менеджер: <a class="link-tel" href="tel:+38080056445634" style="font-family: 'Inter', sans-serif; display: inline-block; font-weight: 700; font-size: 1.125rem; text-align: center; line-height: 140%;">0 800 564 456 34</a></span>
+                                        <span class="footer-call-title footer-call-title-last-child" style="font-family: 'Inter', sans-serif; display: block; font-weight: 700; font-size: 1.125rem; text-align: center; line-height: 140%; padding-top: 8px; padding-bottom: 16px;">Гаряча лінія: <a class="link-tel" href="tel:+38080056445634" style="font-family: 'Inter', sans-serif; display: inline-block; font-weight: 700; font-size: 1.125rem; text-align: center; line-height: 140%;">0 800 564 456 34</a></span>
+                                     </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-top: 16px;">
+                                        <table class="table-600 width-600" cellpadding="0" cellspacing="0" style="width:600px" align="center" border="0">
+                                            <tr>
+                                                <td align="center">
+                                                    <span class="farewell-title" style="font-family: 'Inter', sans-serif; font-size: 1.25rem; line-height: 150%;color: #0E0F0F; font-weight: 600; display: inline-block; text-transform: uppercase;">Приєднуйтесь</span>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr style=" background-color: #F2F4F5;">
+                        <td>
+                            <table class="table-600 width-600" cellpadding="0" cellspacing="0" style="width:600px;" align="center" border="0">
+                                <tr style=" background-color: #F2F4F5;">
+                                    <td class="table-672 width-672" style="width:672px; height: 10px;"></td>
+                                </tr>
+                                <tr style=" background-color: #F2F4F5;">
+                                    <td class="footer-padding" style="padding-bottom: 43px;">
+                                        <table class="table-672 width-672" cellpadding="0" cellspacing="0" style="width:672px" align="center" border="0">
+                                            <tr>
+                                                <td align="center">
+                                                <a target="_blank" href="https://www.facebook.com/logicpower.official/" style="text-decoration: none;font-size: 0; display: inline-block; padding-right: 58px;">
+                                                   <img src="img/facebook.png" alt="facebook" width="24" height="24"> 
+                                                </a>
+                                                <a target="_blank" href="https://www.instagram.com/logicpower_official/?igshid=17r5yqu67su5j" style="text-decoration: none;font-size: 0; display: inline-block; padding-right: 53px;">
+                                                    <img src="img/instagram.png" alt="facebook" width="24" height="24"> 
+                                                </a>
+                                                <a target="_blank" href="https://www.youtube.com/channel/UCy8sx2LSb7clwULG-X-cCyQ" style="text-decoration: none;font-size: 0; display: inline-block; padding-right: 52px;">
+                                                    <img src="img/youtube.png" alt="facebook" width="24" height="24"> 
+                                                </a>
+                                                <a target="_blank" href="https://t.me/LogicPowerBlog" style="text-decoration: none;font-size: 0; display: inline-block;">
+                                                    <img src="img/telegram.png" alt="facebook" width="24" height="24"> 
+                                                </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+	</table>
+</body>
+</html>
